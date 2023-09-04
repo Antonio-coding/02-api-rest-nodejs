@@ -1,9 +1,9 @@
-import {config} from 'dotenv'
+import { config } from 'dotenv'
 import { z } from 'zod'
 
 
-if (process.env.NODE_ENV === 'test'){
-  config({ path: '.env.test'})
+if (process.env.NODE_ENV === 'test') {
+  config({ path: '.env.test' })
 } else {
   config()
 }
